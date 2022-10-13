@@ -36,7 +36,7 @@
   # data.frame with credentials info
   credentials <- data.frame(
     user ,
-    password = c("Paplo87",rep("c2022",length(user)-1)),
+    password = c("*******",rep("c2022",length(user)-1)),
     is_hashed_password = FALSE,
     admin = c(TRUE,  rep("FALSE",length(user)-1) ),
     # comment = c("alsace", "auvergne", "bretagne"), %>% 
